@@ -1,0 +1,66 @@
+{
+  "model": "llama3.2",
+  "accuracy": 1.0,
+  "results": [
+    {
+      "question": "Who invented the telephone?",
+      "expected": "Alexander Graham Bell",
+      "got": "The invention of the telephone is credited to Alexander Graham Bell, a Scottish-born inventor and sc",
+      "correct": true
+    },
+    {
+      "question": "What year did World War 2 end?",
+      "expected": "1945",
+      "got": "World War II officially ended on September 2, 1945, with the formal surrender of Japan. However, the",
+      "correct": true
+    },
+    {
+      "question": "What is the capital of Australia?",
+      "expected": "Canberra",
+      "got": "The capital of Australia is Canberra.",
+      "correct": true
+    },
+    {
+      "question": "Who wrote the Iliad?",
+      "expected": "Homer",
+      "got": "The authorship of the Iliad is a topic of ongoing debate among scholars. The ancient Greeks attribut",
+      "correct": true
+    },
+    {
+      "question": "What is the boiling point of water in Celsius?",
+      "expected": "100",
+      "got": "The boiling point of water is 100 degrees Celsius (\u00b0C) at standard atmospheric pressure.",
+      "correct": true
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "expected": "Leonardo da Vinci",
+      "got": "The Mona Lisa was painted by the Italian artist Leonardo da Vinci. He created the painting in the ea",
+      "correct": true
+    },
+    {
+      "question": "What planet is closest to the Sun?",
+      "expected": "Mercury",
+      "got": "The planet that is closest to the Sun is Mercury. On average, Mercury's distance from the Sun is abo",
+      "correct": true
+    },
+    {
+      "question": "How many bones are in the adult human body?",
+      "expected": "206",
+      "got": "There are 206 bones in the adult human body. This number can vary slightly from person to person, as",
+      "correct": true
+    },
+    {
+      "question": "Who discovered penicillin?",
+      "expected": "Alexander Fleming",
+      "got": "Penicillin was discovered by Scottish scientist Alexander Fleming in 1928. He isolated the antibioti",
+      "correct": true
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "expected": "Au",
+      "got": "The chemical symbol for gold is Au.",
+      "correct": true
+    }
+  ]
+}
