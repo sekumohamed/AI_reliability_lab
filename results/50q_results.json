@@ -1,0 +1,428 @@
+{
+  "model": "llama3.2",
+  "overall_accuracy": 0.94,
+  "categories": {
+    "history": {
+      "total": 10,
+      "correct": 10
+    },
+    "science": {
+      "total": 10,
+      "correct": 9
+    },
+    "geography": {
+      "total": 10,
+      "correct": 9
+    },
+    "math": {
+      "total": 10,
+      "correct": 10
+    },
+    "science_advanced": {
+      "total": 10,
+      "correct": 9
+    }
+  },
+  "results": [
+    {
+      "id": 1,
+      "category": "history",
+      "question": "Who invented the telephone?",
+      "expected": "Alexander Graham Bell",
+      "got": "The invention of the telephone is credited to Alexander Graham Bell, a Scottish-born inventor and scientist. He patented",
+      "correct": true
+    },
+    {
+      "id": 2,
+      "category": "history",
+      "question": "What year did World War 2 end?",
+      "expected": "1945",
+      "got": "World War II ended in two parts:\n\n1. The war in Europe officially ended on May 8, 1945, with the formal surrender of Ger",
+      "correct": true
+    },
+    {
+      "id": 3,
+      "category": "history",
+      "question": "Who was the first President of the United States?",
+      "expected": "George Washington",
+      "got": "George Washington was the first President of the United States. He served two terms in office from April 30, 1789, to Ma",
+      "correct": true
+    },
+    {
+      "id": 4,
+      "category": "history",
+      "question": "In what year did the French Revolution begin?",
+      "expected": "1789",
+      "got": "The French Revolution began in 1789. It started on July 14, 1789, with the Storming of the Bastille, a symbol of the abs",
+      "correct": true
+    },
+    {
+      "id": 5,
+      "category": "history",
+      "question": "Who wrote the Declaration of Independence?",
+      "expected": "Thomas Jefferson",
+      "got": "The Declaration of Independence was written by a committee of five individuals, often referred to as the \"Committee of F",
+      "correct": true
+    },
+    {
+      "id": 6,
+      "category": "history",
+      "question": "What year did the Berlin Wall fall?",
+      "expected": "1989",
+      "got": "The Berlin Wall fell on November 9, 1989.",
+      "correct": true
+    },
+    {
+      "id": 7,
+      "category": "history",
+      "question": "Who was the first man to walk on the moon?",
+      "expected": "Neil Armstrong",
+      "got": "Neil Armstrong was the first person to set foot on the Moon. He stepped onto the lunar surface on July 20, 1969, during ",
+      "correct": true
+    },
+    {
+      "id": 8,
+      "category": "history",
+      "question": "In what year did World War 1 begin?",
+      "expected": "1914",
+      "got": "World War I began in 1914. The exact dates are:\n\n* June 28, 1914: Archduke Franz Ferdinand of Austria-Hungary was assass",
+      "correct": true
+    },
+    {
+      "id": 9,
+      "category": "history",
+      "question": "Who discovered America in 1492?",
+      "expected": "Christopher Columbus",
+      "got": "While Christopher Columbus is often credited with \"discovering\" America, it's more accurate to say that he was the first",
+      "correct": true
+    },
+    {
+      "id": 10,
+      "category": "history",
+      "question": "What empire did Julius Caesar lead?",
+      "expected": "Roman",
+      "got": "Julius Caesar led the Roman Empire. However, it's worth noting that during his time, Rome was not officially referred to",
+      "correct": true
+    },
+    {
+      "id": 11,
+      "category": "science",
+      "question": "What is the chemical symbol for gold?",
+      "expected": "Au",
+      "got": "The chemical symbol for gold is Au. It comes from the Latin word \"Aurum\".",
+      "correct": true
+    },
+    {
+      "id": 12,
+      "category": "science",
+      "question": "What planet is closest to the Sun?",
+      "expected": "Mercury",
+      "got": "Mercury is the planet that is closest to the Sun, on average. It orbits the Sun at an average distance of about 58 milli",
+      "correct": true
+    },
+    {
+      "id": 13,
+      "category": "science",
+      "question": "Who discovered penicillin?",
+      "expected": "Alexander Fleming",
+      "got": "Alexander Fleming discovered penicillin in 1928. He was a Scottish biologist, pharmacologist, and botanist who worked at",
+      "correct": true
+    },
+    {
+      "id": 14,
+      "category": "science",
+      "question": "What is the boiling point of water in Celsius?",
+      "expected": "100",
+      "got": "The boiling point of water is 100 degrees Celsius (\u00b0C) at standard atmospheric pressure.",
+      "correct": true
+    },
+    {
+      "id": 15,
+      "category": "science",
+      "question": "How many bones are in the adult human body?",
+      "expected": "206",
+      "got": "There are 206 bones in the adult human body. This number can vary slightly from person to person, as some individuals ma",
+      "correct": true
+    },
+    {
+      "id": 16,
+      "category": "science",
+      "question": "What gas do plants absorb from the atmosphere?",
+      "expected": "carbon dioxide",
+      "got": "Plants primarily absorb carbon dioxide (CO2) from the atmosphere through small openings on their leaves called stomata. ",
+      "correct": true
+    },
+    {
+      "id": 17,
+      "category": "science",
+      "question": "What is the speed of light in km/s?",
+      "expected": "299792",
+      "got": "The speed of light in a vacuum is approximately 299,792 kilometers per second (km/s).",
+      "correct": false
+    },
+    {
+      "id": 18,
+      "category": "science",
+      "question": "Who proposed the theory of relativity?",
+      "expected": "Einstein",
+      "got": "The theory of relativity was proposed by Albert Einstein. He presented two main theories:\n\n1. Special Relativity (1905):",
+      "correct": true
+    },
+    {
+      "id": 19,
+      "category": "science",
+      "question": "What is the hardest natural substance on Earth?",
+      "expected": "diamond",
+      "got": "The hardest natural substance on Earth is diamond. Diamonds are made up of pure carbon and have a unique crystal structu",
+      "correct": true
+    },
+    {
+      "id": 20,
+      "category": "science",
+      "question": "How many chromosomes do humans have?",
+      "expected": "46",
+      "got": "Humans typically have 46 chromosomes in every cell of their body, except for reproductive cells (sperm and egg cells), w",
+      "correct": true
+    },
+    {
+      "id": 21,
+      "category": "geography",
+      "question": "What is the capital of Australia?",
+      "expected": "Canberra",
+      "got": "The capital of Australia is Canberra.",
+      "correct": true
+    },
+    {
+      "id": 22,
+      "category": "geography",
+      "question": "What is the longest river in the world?",
+      "expected": "Nile",
+      "got": "The longest river in the world is the Nile River, which is approximately 6,695 kilometers (4,160 miles) long. It flows t",
+      "correct": true
+    },
+    {
+      "id": 23,
+      "category": "geography",
+      "question": "What is the smallest country in the world?",
+      "expected": "Vatican",
+      "got": "The smallest country in the world is Vatican City, which has a total area of approximately 0.44 km\u00b2 (0.17 sq mi). It is ",
+      "correct": true
+    },
+    {
+      "id": 24,
+      "category": "geography",
+      "question": "What is the capital of Japan?",
+      "expected": "Tokyo",
+      "got": "The capital of Japan is Tokyo.",
+      "correct": true
+    },
+    {
+      "id": 25,
+      "category": "geography",
+      "question": "Which continent is the Sahara Desert in?",
+      "expected": "Africa",
+      "got": "The Sahara Desert is located on the continent of Africa.",
+      "correct": true
+    },
+    {
+      "id": 26,
+      "category": "geography",
+      "question": "What is the tallest mountain in the world?",
+      "expected": "Everest",
+      "got": "The tallest mountain in the world is Mount Everest, located in the Himalayas on the border between Nepal and Tibet, Chin",
+      "correct": true
+    },
+    {
+      "id": 27,
+      "category": "geography",
+      "question": "What is the capital of Brazil?",
+      "expected": "Brasilia",
+      "got": "The capital of Brazil is Bras\u00edlia.",
+      "correct": false
+    },
+    {
+      "id": 28,
+      "category": "geography",
+      "question": "How many continents are there on Earth?",
+      "expected": "7",
+      "got": "There are generally considered to be 7 continents on Earth:\n\n1. Africa\n2. Antarctica\n3. Asia\n4. Australia\n5. Europe\n6. N",
+      "correct": true
+    },
+    {
+      "id": 29,
+      "category": "geography",
+      "question": "What ocean is the largest?",
+      "expected": "Pacific",
+      "got": "The Pacific Ocean is the largest of the world's five oceans, covering approximately 155.6 million square kilometers (60.",
+      "correct": true
+    },
+    {
+      "id": 30,
+      "category": "geography",
+      "question": "What country has the most natural lakes?",
+      "expected": "Canada",
+      "got": "Canada is often considered the country with the most natural lakes. According to Environment and Climate Change Canada, ",
+      "correct": true
+    },
+    {
+      "id": 31,
+      "category": "math",
+      "question": "What is the square root of 144?",
+      "expected": "12",
+      "got": "The square root of 144 is 12.",
+      "correct": true
+    },
+    {
+      "id": 32,
+      "category": "math",
+      "question": "What is 15 multiplied by 15?",
+      "expected": "225",
+      "got": "15 x 15 = 225",
+      "correct": true
+    },
+    {
+      "id": 33,
+      "category": "math",
+      "question": "What is the value of Pi to 2 decimal places?",
+      "expected": "3.14",
+      "got": "The value of Pi (\u03c0) is approximately 3.14. Rounded to 2 decimal places, it is 3.14.",
+      "correct": true
+    },
+    {
+      "id": 34,
+      "category": "math",
+      "question": "What is 2 to the power of 10?",
+      "expected": "1024",
+      "got": "2^10 = 1024",
+      "correct": true
+    },
+    {
+      "id": 35,
+      "category": "math",
+      "question": "How many sides does a hexagon have?",
+      "expected": "6",
+      "got": "A hexagon has 6 sides. The prefix \"hexa-\" means six, and the suffix \"-gon\" means angle or corner. So, a hexagon literall",
+      "correct": true
+    },
+    {
+      "id": 36,
+      "category": "math",
+      "question": "What is 20 percent of 200?",
+      "expected": "40",
+      "got": "To find 20% of 200, you can multiply 200 by 0.2 (since 20% = 20/100 = 0.2).\n\n200 x 0.2 = 40\n\nSo, 20% of 200 is 40.",
+      "correct": true
+    },
+    {
+      "id": 37,
+      "category": "math",
+      "question": "What is the sum of angles in a triangle?",
+      "expected": "180",
+      "got": "The sum of angles in a triangle is always 180 degrees. This is a fundamental property of triangles and can be proven usi",
+      "correct": true
+    },
+    {
+      "id": 38,
+      "category": "math",
+      "question": "What is the factorial of 5?",
+      "expected": "120",
+      "got": "The factorial of 5 (denoted as 5!) is calculated by multiplying all positive integers up to 5:\n\n5! = 5 \u00d7 4 \u00d7 3 \u00d7 2 \u00d7 1 =",
+      "correct": true
+    },
+    {
+      "id": 39,
+      "category": "math",
+      "question": "What is 999 divided by 3?",
+      "expected": "333",
+      "got": "999 divided by 3 equals 333.",
+      "correct": true
+    },
+    {
+      "id": 40,
+      "category": "math",
+      "question": "What is the next prime number after 7?",
+      "expected": "11",
+      "got": "The next prime number after 7 is 11.",
+      "correct": true
+    },
+    {
+      "id": 41,
+      "category": "science_advanced",
+      "question": "What is the powerhouse of the cell?",
+      "expected": "mitochondria",
+      "got": "The powerhouse of the cell is the mitochondria. Mitochondria are organelles found in eukaryotic cells that generate ener",
+      "correct": true
+    },
+    {
+      "id": 42,
+      "category": "science_advanced",
+      "question": "What is the chemical formula for water?",
+      "expected": "H2O",
+      "got": "The chemical formula for water is H2O. This indicates that one molecule of water consists of two hydrogen atoms (H) and ",
+      "correct": true
+    },
+    {
+      "id": 43,
+      "category": "science_advanced",
+      "question": "What is the atomic number of carbon?",
+      "expected": "6",
+      "got": "The atomic number of carbon is 6.",
+      "correct": true
+    },
+    {
+      "id": 44,
+      "category": "science_advanced",
+      "question": "What force keeps planets in orbit around the Sun?",
+      "expected": "gravity",
+      "got": "The primary force that keeps planets in orbit around the Sun is gravity. According to Newton's Law of Universal Gravitat",
+      "correct": true
+    },
+    {
+      "id": 45,
+      "category": "science_advanced",
+      "question": "What is the most abundant gas in Earth's atmosphere?",
+      "expected": "nitrogen",
+      "got": "The most abundant gas in Earth's atmosphere is nitrogen (N2), making up approximately 78% of the atmosphere by volume. O",
+      "correct": true
+    },
+    {
+      "id": 46,
+      "category": "science_advanced",
+      "question": "What organ produces insulin in the human body?",
+      "expected": "pancreas",
+      "got": "The pancreas is the organ that produces insulin in the human body. Specifically, the beta cells within the islets of Lan",
+      "correct": true
+    },
+    {
+      "id": 47,
+      "category": "science_advanced",
+      "question": "What is the pH of pure water?",
+      "expected": "7",
+      "got": "The pH of pure water is neutral, which is a pH of 7. This is because pure water contains equal concentrations of hydroge",
+      "correct": true
+    },
+    {
+      "id": 48,
+      "category": "science_advanced",
+      "question": "How many chambers does the human heart have?",
+      "expected": "4",
+      "got": "The human heart has four chambers:\n\n1. Right atrium\n2. Left atrium\n3. Right ventricle\n4. Left ventricle",
+      "correct": true
+    },
+    {
+      "id": 49,
+      "category": "science_advanced",
+      "question": "What particle has a negative charge in an atom?",
+      "expected": "electron",
+      "got": "In an atom, there are three main types of particles that carry a charge:\n\n1. Protons: Positive charge\n2. Neutrons: No ch",
+      "correct": true
+    },
+    {
+      "id": 50,
+      "category": "science_advanced",
+      "question": "What is the closest star to Earth?",
+      "expected": "Sun",
+      "got": "The closest star to Earth is Proxima Centauri, which is located approximately 4.24 light-years away from our planet. It ",
+      "correct": false
+    }
+  ]
+}
