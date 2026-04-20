@@ -1,0 +1,18 @@
+{
+  "baseline": {
+    "correct": 19,
+    "total": 20
+  },
+  "chain_of_thought": {
+    "correct": 19,
+    "total": 20
+  },
+  "self_consistency": {
+    "correct": 19,
+    "total": 20
+  },
+  "rag_grounding": {
+    "correct": 19,
+    "total": 20
+  }
+}
