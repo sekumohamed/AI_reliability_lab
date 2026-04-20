@@ -1,0 +1,28 @@
+{
+  "models_tested": [
+    "llama3.2",
+    "mistral",
+    "phi3"
+  ],
+  "questions_count": 50,
+  "leaderboard": {
+    "llama3.2": {
+      "accuracy": 0.94,
+      "correct": 47,
+      "total": 50,
+      "avg_latency_ms": 5141
+    },
+    "mistral": {
+      "accuracy": 0.86,
+      "correct": 43,
+      "total": 50,
+      "avg_latency_ms": 11218
+    },
+    "phi3": {
+      "accuracy": 0.88,
+      "correct": 44,
+      "total": 50,
+      "avg_latency_ms": 12780
+    }
+  }
+}
